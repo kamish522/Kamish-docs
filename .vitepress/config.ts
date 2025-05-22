@@ -19,13 +19,13 @@ export default defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/kamish522/kamish-docs/:path',
+      pattern: 'https://github.com/kamish522/kamish-docs/blob/main/:path',
       text: 'Редактировать страницу на GitHub'
     },
 
     sidebar: [
       {
-        text: 'Гайды',
+        text: 'Статьи',
         items: [
           { text: 'Главная', link: '/' },
         ]
